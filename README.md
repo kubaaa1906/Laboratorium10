@@ -8,4 +8,4 @@ Użyte polecenia:
 
   Uruchomienie kontenera 3: docker run -d --name web3 --network lab10net -p 8083:80 --mount type=bind,source=C:\Users\Kuba\Lab10,target=/usr/share/nginx/html,readonly --mount type=bind,source=C:\Users\Kuba\Lab10\web3,target=/var/log/nginx nginx:latest
 
-TODO: poprawic zeby dzialal na wspoldzielonym wolumenie, dac uprawnienia tylko do read
+TODO: poprawic zeby dzialal na wspoldzielonym wolumenie, dac uprawnienia tylko do read. Z Web1 do web2 i z web1 do web3 przez volumes-from
