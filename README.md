@@ -7,3 +7,5 @@ Użyte polecenia:
   Uruchomienie kontenera 2: docker run -d --name web2 --network lab10net -p 8082:80 --mount type=bind,source=C:\Users\Kuba\Lab10,target=/usr/share/nginx/html,readonly --mount type=bind,source=C:\Users\Kuba\Lab10\web2,target=/var/log/nginx nginx:latest
 
   Uruchomienie kontenera 3: docker run -d --name web3 --network lab10net -p 8083:80 --mount type=bind,source=C:\Users\Kuba\Lab10,target=/usr/share/nginx/html,readonly --mount type=bind,source=C:\Users\Kuba\Lab10\web3,target=/var/log/nginx nginx:latest
+
+TODO: poprawic zeby dzialal na wspoldzielonym wolumenie, dac uprawnienia tylko do read
